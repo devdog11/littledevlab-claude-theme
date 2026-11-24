@@ -1,0 +1,5 @@
+{
+  "name": "littledevlab-claude-theme",
+  "owner": { "name": "devdog11" },
+  "plugins": [{ "name": "littledevlab", "source": "./" }]
+}
