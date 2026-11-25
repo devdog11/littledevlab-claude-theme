@@ -8,7 +8,7 @@ A drafting-paper look for Claude, modeled on [littledevlab.com](https://littlede
 - **Messages:** your prompts sit in bordered cards with hard offset shadows; headings and tool calls use monospace.
 - **Your Actions callout:** a reply that opens with `**Your Actions**` gets that block drawn as an orange-outlined box.
 
-Colors and backdrop draw in the Claude desktop and mobile apps; message styles in the desktop app. The terminal and VS Code show the Your Actions box only.
+This is a Claude Code plugin, so it works in Claude Code sessions only, not regular claude.ai or desktop chats. The full look (colors, backdrop, message styles) draws in the desktop app's **Code** tab; colors and backdrop also show when you follow a Code session on mobile. The terminal and VS Code draw no theme and show the Your Actions box only.
 
 ## Install
 
@@ -26,7 +26,7 @@ From a shell:
 claude plugin install littledevlab --marketplace devdog11/littledevlab-claude-theme
 ```
 
-In the desktop app, where `/plugin` does not run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `devdog11/littledevlab-claude-theme`, then **Add plugin**.
+**Desktop app:** install with one of the commands above from a terminal, using the user scope. The theme then loads in new sessions in the desktop app's **Code** tab; `/plugin` itself doesn't run there.
 
 ## Files
 
